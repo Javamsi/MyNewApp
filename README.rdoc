@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Final Project App Starting Point
+Vamsi Jandhayala
 
-Things you may want to cover:
+Heroku Links: 
 
-* Ruby version
+For the main page (which also contains users index) : https://whispering-wave-5602.herokuapp.com
+For the Statuses page where a person can type in a name and update their status as a post
+https://whispering-wave-5602.herokuapp.com/statuses
+I created a new app and could not come up with a name as of yet so I just left it as mynewapp for now. The app 
+presently contains a method for creating a new user and also for updating a status. A user will also have 
+the ability to share some important information such as which restaraunts they recently visited as well as a rating
+and descriptiong, similarly for movies, books, etc... It will have some type of linking feature between friends 
+or related members similar to Facebook. I started for with this basic setup to make sure I understood how the 
+indices, tables, controllers, and views that we discussed in class worked, this is why it does not look as 
+interesting, but hopefully I can add enough features to show the functionality between the different indices by
+next week. I just had some issues modifying the Gemfile and changing the Gemfile.lock filie via bundle install
+because I did not have pg installed on my laptop. After I resolved this I was able to follow the lecture notes
+in creating the two tables Users and Statuses. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
